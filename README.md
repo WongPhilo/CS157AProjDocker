@@ -1,7 +1,7 @@
 # CS157AProjDocker
 First, you'll need to have the Docker Engine installed and running. Then, open a terminal in the directory where fishmarket.tar is located, or on some parent directory that has access.
 
-In order to build the image:
+In order to load the image:
 
 docker load -i fishmarket.tar
 
