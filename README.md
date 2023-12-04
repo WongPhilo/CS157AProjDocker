@@ -27,8 +27,8 @@ docker run -it --rm fishmarket mysql -h"172.17.0.2" -uroot -p123
 
 To build and populate the tables, run the following commands:
 
-source create.sql
-source insert.sql
+source create.sql<br>
+source insert.sql<br>
 source views.sql
 
 Now you can input standard MySQL commands into the terminal, and receive results. Remember that inputs are case-sensitive, and that all of my entities and attributes are upper-case!
