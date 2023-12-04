@@ -5,7 +5,7 @@ In order to load the image:
 
 docker load -i fishmarket.tar
 
-Now, in order to start the MySQL server, run with the Docker image:
+Now, in order to start the MySQL server, run with the public Docker image:
 
 docker run -d --rm --name=sql-server -e MYSQL_ROOT_PASSWORD=123 mysql
 
